@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: AppLiviu1
+  host: AppLiviu1
+  disk_quota: 1024M
+  services:
+  - AppLiviu1-cloudantNoSQLDB
+  - AppLiviu1-iotf-service
+  - availability-monitoring-auto
